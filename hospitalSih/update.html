@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>CheckBeds</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="bedicon.svg" type="image/png">
+    </head>
+    <body>
+        <div class="navbar">
+            <h1>CheckBeds</h1>
+            <a href="notification.html">Notifications</a>
+            <a href="update.html">Update</a>
+            <a href="account.html">Account</a>
+        </div>
+        <div class="updatebedcard">
+            <h3>Update Bed</h3>
+            <form>
+                <div class="updatebedcardradio">
+                    <input type="radio" id="emer" name="fav_language" value="Emergency" />
+                    <label id="emer">Emergency Bed</label>
+                    <input type="radio" id="gene" name="fav_language" value="General" />
+                    <label id="gene">General Bed</label>
+                </div>
+                <div class="updatebedcardradio">
+                    <input type="radio" id="add" name="fav_language1" value="add" />
+                    <label id="add">Add Bed</label>
+                    <input type="radio" id="delete" name="fav_language1" style="margin-left: 7.5vw;" value="delete" />
+                    <label id="delete">Remove Bed</label>
+                </div>
+                <div class="updatebedcardinput">
+                    <label>Quantity:</label>
+                    <input type="number" >
+                </div>
+                <button class="updatebedcardbutton">Update</button>
+            </form>
+        </div>
+    </body>
+</html>

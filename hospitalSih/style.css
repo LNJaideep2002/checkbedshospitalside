@@ -1,0 +1,262 @@
+.navbar{
+    background-color: #219f94;
+    height: 5vw;
+}
+body{
+    background-color: #C1DEAE;
+}
+.navbar a{
+    font-size: 1.2vw;
+    float: left;
+    color: white;
+    margin-left: 2vw;
+    margin-top: 1.8vw;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.navbar h1{
+    order: 1;
+    font-size: 2vw;
+    color: white;
+    float: left;
+    margin-left: 10vw;
+    margin-right: 40vw;
+}
+.icon{
+    background-color: white;
+    width: fit-content;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+}
+.icon img{
+    width: 8vw;
+}
+.tablehead{
+    background-color: #219f94;
+    color: white;
+    font-size: 1.5vw;
+}
+.tablehead th{
+ padding: 0.8vw;
+}
+.tabledata{
+    background-color: rgb(255, 255, 255,0.4);
+
+}
+.tabledata td{
+    padding: 0.8vw;
+}
+.tabledata td button{
+    padding: 0.5vw;
+    margin-left: 1vw;
+    border: none;
+    cursor: pointer;
+        background-color: rgb(255, 255, 255,0);
+}
+.tabledata td button img{
+    width: 2.5vw;
+}
+#accecpt:hover{
+  background-color: #4bae4f;
+}
+#decline:hover{
+    background-color: #f40000;
+}
+
+.input-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: #8c7569;
+  transition: 0.3s;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  margin: 1vw 1vw 0vw 1vw;
+}
+.input-block input {
+  outline: 0;
+  border: 0;
+  padding: 4px 0 0;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+}
+.input-block input::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.input-block input:-ms-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.input-block input::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.input-block:focus-within {
+  border-color: #8c7569;
+}
+.input-block:focus-within .input-label {
+  color: rgba(140, 117, 105, 0.8);
+}
+.logincard{
+    margin-top: 8vw;
+    display: flex;
+    margin-left: 25vw;
+}
+.logincardleft{
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+     box-sizing: border-box;
+}
+.logincardleft h3{
+    margin-left: 8vw;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+}
+.logincardleft p{
+    font-size: 1.2vw;
+    margin: -1vw 1vw 3vw 2vw;
+}
+.logincardlogin{
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    margin-right: 4vw;
+    margin-left: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+.logincardlogin a{
+    color: rgba(51, 51, 51, 0.6);;
+}
+.logincardlogin button{
+  padding: 8px 12px;
+  outline: none;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  background: #8c7569;
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.logincardlogin button:hover {
+  background: #55311c;
+}
+.logincardright img{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 30vw;
+}
+.updatebedcard{
+  background-color: rgb(255, 255, 255,0.5);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vw;
+}
+.updatebedcardradio{
+  display: flex;
+}
+.updatebedcardradio label{
+  font-size: 1.3vw;
+}
+.updatebedcardradio input{
+  margin-left: 4vw;
+  margin-bottom: 2vw;
+}
+.updatebedcard h3{
+  padding: 1vw 10vw 1vw 10vw;
+  font-size: 2vw;
+  background-color: #219f94;
+  color: white;
+}
+.updatebedcardinput{
+  display: flex;
+}
+.updatebedcardinput label{
+  font-size: 1.5vw;
+  margin:0vw 1vw 0vw 8vw;
+}
+.updatebedcardinput input{
+  font-size: 1.3vw;
+  width: 7vw;
+}
+.updatebedcardbutton{
+  background-color:  #219f94;
+  border: none;
+  font-size: 1.5vw;
+  padding: 0.5vw;
+  margin-left:12vw;
+  color: white;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  cursor: pointer;
+}
+.accounticon{
+  background-color: white;
+  width: fit-content;
+  border-radius: 50%;
+  margin-left: 13vw;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+.accounticon img{
+  width: 8vw;
+}
+.accountcontent{
+  background-color: rgb(255, 255, 255,0.5);
+  padding-bottom: 1vw;
+  width: fit-content;
+}
+.accountcontent h3{
+   font-size: 2vw;
+  background-color: #219f94;
+  color: white;
+ padding: 1vw 1vw 1vw 13vw;
+}
+.accountcontent p{
+  font-size: 1.5vw;
+  margin-right: 4vw;
+  margin-left:4vw;
+}
+.accountcontent p span{
+  margin-left: 1vw;
+}
+.accountcontentbed{
+  display: flex;
+}
+.account{
+  margin-left: 33vw
+}
+.accountlogout{
+  margin-left: 13vw;
+  margin-top: 2vw;
+}
+.accountlogout button {
+  font-size: 1.5vw;
+  color: white;
+  background-color: #219f94;
+  border: none;
+  padding: 0.5vw;
+  cursor: pointer;
+}
+.accountlogout button a{
+  text-decoration: none;
+  color: white;
+}
